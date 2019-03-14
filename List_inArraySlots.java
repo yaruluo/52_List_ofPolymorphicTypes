@@ -15,7 +15,7 @@ public class List_inArraySlots {
       @return the number of elements in this list
      */
     public int size() {
-	return terminus + 1;
+	    return terminus + 1;
     }
 
     /**
@@ -35,9 +35,9 @@ public class List_inArraySlots {
       @return true, in keeping with conventions yet to be discussed
      */
     public boolean add(Object item) {
-        if (terminus + 1 == contents.length) expand();
+        if (terminus + 1 == contents.length) {expand();}
         contents[++terminus] = item;
-	return true;
+	    return true;
     }
 
     /**
