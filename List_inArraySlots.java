@@ -1,7 +1,6 @@
 public class List_inArraySlots {
     private Object[] contents;
     private int terminus; //index of the last element
-    private int filledElements;
     private static final int INIT_CAP = 8;
 
     /**
@@ -16,7 +15,7 @@ public class List_inArraySlots {
       @return the number of elements in this list
      */
     public int size() {
-	return filledElements;
+	return terminus + 1;
     }
 
     /**
