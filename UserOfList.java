@@ -21,6 +21,10 @@ public class UserOfList {
         System.out.println( "number of elements: " + list.size() );
         System.out.println( "added double: " + list);
 
+	list.add( true);
+         System.out.println( "number of elements: " + list.size() );
+         System.out.println( "added boolean: " + list);
+
 	int elemIndex = 0;
         // Add enough elements that expansion is expected
         for( ; elemIndex < 15; elemIndex++ ) {
